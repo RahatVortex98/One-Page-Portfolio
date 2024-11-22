@@ -1,0 +1,100 @@
+{% load static  %}
+
+
+
+
+{% comment %} <img src = "{% static 'images/cr7.jpg' %} "> {% endcomment %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CR7</title>
+    <link href={% static '/css/main.css' %} rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/cr7.jpg' %}">
+                    <hr>
+                    <h4>Hi I'm Cristiano Ronaldo</h4>
+                    <p>I am a footballer, I love football.</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4>My First Job as a Footballer</h4>
+                    <hr>
+                    <p>Cristiano Ronaldo, often referred to as CR7, is a Portuguese professional footballer widely regarded as one of the greatest players in football history. Born on February 5, 1985, in Funchal, Madeira, Portugal, Ronaldo's extraordinary career is defined by his exceptional goal-scoring ability, speed, athleticism, and relentless work ethic. He began his professional journey with Sporting CP before rising to global stardom at Manchester United, where he won his first Ballon d'Or in 2008. His record-breaking tenure at Real Madrid solidified his status as a football legend, where he became the club's all-time leading scorer and won multiple Champions League titles. Later, he showcased his skills at Juventus and returned to Manchester United, followed by a move to Al-Nassr in Saudi Arabia.</p>
+                    <p>On the international stage, Ronaldo has been the backbone of the Portugal national team, leading them to victory in the UEFA Euro 2016 and the UEFA Nations League 2019. Known for his iconic "Siuuu" celebration, Ronaldo's influence extends beyond football, with a significant impact as a global brand ambassador and philanthropist.</p>
+                    <p>With countless records and accolades to his name, Cristiano Ronaldo exemplifies determination, passion, and excellence, inspiring millions worldwide.</p>
+                    <ul>
+                        <li>
+                            <img class="social" src="{% static 'images/facebook.png' %}">
+                        </li>
+                        <li>
+                            <img class="social" src="{% static 'images/linkedin.png' %}">
+                        </li>
+                        <li>
+                            <img class="social" src="{% static 'images/twitter.png' %}">
+                        </li>
+                        <li>
+                            <img class="social" src="{% static 'images/youtube.png' %}">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>Experience as a Footballer</h5>
+                    <hr>
+                    <p>Cristiano Ronaldo, known as CR7, has had an extraordinary career spanning clubs like Manchester United, Real Madrid, Juventus, and Al-Nassr, winning 5 Ballon d’Ors and countless trophies. As football’s all-time top scorer, his relentless drive, skill, and leadership have redefined greatness on the pitch.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>What Cr7 knows</h5>
+                    <hr>
+                    <p>Cristiano Ronaldo is a master of football techniques, including dribbling, shooting, heading, and free kicks, with unmatched athleticism and tactical intelligence. He also excels in leadership, teamwork, and inspiring others through his dedication and work ethic.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>How Cr7 Learn</h5>
+                    <hr>
+                    <p>Cristiano Ronaldo honed his skills through relentless practice, discipline, and a strong desire to improve from a young age. He learned by observing, adapting, and pushing his limits both on and off the pitch.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>Cr7 Short Term Goals</h5>
+                    <hr>
+                    <p>Cristiano Ronaldo's short-term goals often focus on winning matches, scoring crucial goals, and maintaining peak physical fitness. He aims to consistently perform at the highest level to contribute to his team’s success.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Vortex | All rights reserved</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#" class="text-white">Privacy Policy</a></li>
+            <li class="list-inline-item"><a href="#" class="text-white">Terms of Service</a></li>
+            <li class="list-inline-item"><a href="#" class="text-white">Contact</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
